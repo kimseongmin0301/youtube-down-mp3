@@ -3,7 +3,7 @@ from pytube import YouTube
 
 urls = []
 
-while Ture:
+while True:
     url = input("유튜브 URL을 복사하세요. ('y'를 입력하면 다운로드 됩니다.): ")
     if url.lower() == 'y':
         break
